@@ -6,7 +6,7 @@
 
 ## 📘Ementa
 
-### Angular: transformando uma aplicação web em PWA
+### Angular: gerenciando estado com Signals
 
 - Construir uma aplicação educacional com atualização e mudança automática na tela
 - Entender e utilizar os sinais graváveis (writable signals) para armazenar informações
