@@ -8,6 +8,9 @@ import { EffetcsComponent } from './effetcs/effetcs.component';
 import { EffectsDemoComponent } from './effects-demo/effects-demo.component';
 import { ElementoListComponent } from './elemento-list/elemento-list.component';
 import { ElementoDetathesComponent } from './elemento-detathes/elemento-detathes.component';
+import { ComputedSignalComponent } from './computed-signal/computed-signal.component';
+import { ClickCounterComponent } from './click-counter/click-counter.component';
+import { ItemCounterComponent } from './item-counter/item-counter.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ElementoDetathesComponent } from './elemento-detathes/elemento-detathes
     EffetcsComponent,
     EffectsDemoComponent,
     ElementoListComponent,
-    ElementoDetathesComponent
+    ElementoDetathesComponent,
+    ComputedSignalComponent,
+    ClickCounterComponent,
+    ItemCounterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
