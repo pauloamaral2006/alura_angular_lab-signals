@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { SignalsIntroComponent } from './signals-intro/signals-intro.component';
 import { EffetcsComponent } from './effetcs/effetcs.component';
 import { EffectsDemoComponent } from './effects-demo/effects-demo.component';
+import { ElementoListComponent } from './elemento-list/elemento-list.component';
+import { ElementoDetathesComponent } from './elemento-detathes/elemento-detathes.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,8 @@ import { EffectsDemoComponent } from './effects-demo/effects-demo.component';
     SignalsIntroComponent,
     EffetcsComponent,
     EffectsDemoComponent,
+    ElementoListComponent,
+    ElementoDetathesComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
