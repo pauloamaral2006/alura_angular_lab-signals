@@ -1,32 +1,30 @@
-# What are signals in Angular?
+# LabSignals
 
-![image](https://github.com/user-attachments/assets/e25ef7e6-fb2a-4594-95fc-44ff21cdb17e)
+## ℹ️ Sobre
 
-**Signals** are a new feature introduced in Angular 16, designed to simplify how we handle state in components. Instead of relying on complex mechanisms like observables or heavy state managers, signals offer a more direct and efficient way to track changes and update the user interface.
+<p>Projeto utilizado no curso para aprendizado das técnicas e melhores práticas.</p>
 
-A signal is essentially a "value holder," meaning it stores a piece of data and automatically notifies Angular when that data changes. This means that whenever the value of a signal is updated, the interface will reactively update, without needing any special handling on your part.
+## 📘Ementa
 
-## Practical Example: Creating and Updating a Signal
+### Angular: transformando uma aplicação web em PWA
 
-Let's create a signal called elementoSelecionado, which will store the selected chemical element by the user. Initially, it will be null since no element is selected. Later, when the user clicks on an item from the list, we update this signal.
+- Construir uma aplicação educacional com atualização e mudança automática na tela
+- Entender e utilizar os sinais graváveis (writable signals) para armazenar informações
+- Conhecer e aplicar os sinais computados (computed signals)
+- Aplicar efeitos (effects)
+- Organizar o código com um serviço que utiliza signals
+- Compartilhar signals entre diferentes componentes
+- Otimizar aplicações Angular com onPush e untracked
 
-```tsx
-elementoSelecionado = signal<Elemento | null>(null);
-```
+## 🖥️ Tecnologias
 
-Whenever the user selects an element, the .set() method is called, updating the state of elementoSelecionado. Here's how simple that is:
+<div>
+  <img src="https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff">
+  <img src="https://img.shields.io/badge/Angular-%23DD0031.svg?logo=angular&logoColor=white">
+</div>
 
-```tsx
+## 🧑‍🏫 Instrutor(es)
 
-selecionarElemento(elemento: Elemento) {
-  this.elementoSelecionado.set(elemento);
-}
-```
-
-Now, the magic happens: every time the state of elementoSelecionado changes, the interface that depends on that value will automatically update!
-
-https://github.com/user-attachments/assets/101f1546-3f9c-4d4b-9b94-3f9d4ec3a259
-
-### Why Are Signals Awesome?
-
-Signals make life much simpler for Angular developers. If you're working on something where the state changes locally (e.g., selecting an item in a list, toggling a setting), signals are perfect. They are easy to create, update, and Angular does the heavy lifting of re-rendering everything for you. Plus, for those who have felt lost in the world of observables, signals provide a lighter, less complex alternative for handling state and reactivity.
+| [<img loading="lazy" src="https://cdn2.gnarususercontent.com.br/1/1312687/e6386ec6-ba1f-43b4-b1be-f794cefbb6a5.jpg?width=100&height=100&aspect_ratio=1:1" width=115><br><sub>Thamiris da Silva Adriano</sub>](https://cursos.alura.com.br/user/thamirissadriano) |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------: |
